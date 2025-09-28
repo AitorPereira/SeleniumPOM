@@ -42,15 +42,15 @@ src/
 
 ## 🔑 Key Features
 1.	Page Object Model (POM)
-	•	Encapsulates web elements and interactions inside HomePage.py.
-	•	Makes tests more readable, maintainable, and scalable.
+  - Encapsulates web elements and interactions inside HomePage.py.
+  - Makes tests more readable, maintainable, and scalable.
 2.	Reusable WebDriver Setup
-	•	Centralized WebDriverSetup.py handles driver init, maximize window, and teardown.
+  - Centralized WebDriverSetup.py handles driver init, maximize window, and teardown.
 3.	Environment-Aware Testing
-	•	config.py and conftest.py provide dynamic configs (dev, qa, stg).
-	•	Easily switch environments via CLI flag --env.
+  - config.py and conftest.py provide dynamic configs (dev, qa, stg).
+  - Easily switch environments via CLI flag --env.
 4.	Sample Test Workflow
-	•	Demo test (test_demo.py) executes a sign-up flow on Test Automation Practice.
+  - Demo test (test_demo.py) executes a sign-up flow on Test Automation Practice.
 
 ⸻
 
@@ -86,10 +86,10 @@ def test_add_item_to_course_pack(self):
 ```
 
 ### 💡 Why this project?
-✔️ Clean separation of concerns with Page Object Model.
-✔️ Pytest-driven, environment-configurable execution.
-✔️ Scalable design for UI test automation.
-✔️ A foundation to expand into CI/CD pipelines.
+✔️ Clean separation of concerns with Page Object Model.  
+✔️ Pytest-driven, environment-configurable execution.  
+✔️ Scalable design for UI test automation.  
+✔️ A foundation to expand into CI/CD pipelines.  
 
 ### 📜 License
 This project is licensed under the MIT License.
