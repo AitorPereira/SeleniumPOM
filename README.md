@@ -8,15 +8,15 @@ It follows the Page Object Model (POM) design pattern and integrates with Pytest
 ### 🚀 Tech Stack  
 •	Core: Python 3.8+  
 •	Libraries & Tools:  
-•	Selenium → browser automation  
-•	Pytest → test runner, fixtures & markers  
-•	Unittest → WebDriver setup base  
-•	urllib3 → handle SSL warnings  
+	•	Selenium → browser automation  
+	•	Pytest → test runner, fixtures & markers  
+	•	Unittest → WebDriver setup base  
+	•	urllib3 → handle SSL warnings  
 •	Concepts Explored:  
-•	Page Object Model (POM)  
-•	Cross-environment configuration  
-•	WebDriver setup & teardown  
-•	Pytest fixtures for flexible test orchestration  
+	•	Page Object Model (POM)  
+	•	Cross-environment configuration  
+	•	WebDriver setup & teardown  
+	•	Pytest fixtures for flexible test orchestration  
 
 ⸻
 
